@@ -1,17 +1,16 @@
 package server
 
 import (
+	"github.com/snwsnwsnw/wsserver/conf"
 	"log/slog"
 	"strconv"
 	"strings"
 )
 
-const WS_PORT_RANGE = "38001-38050"
-
 var wsAddrs []string
 
 func LoadWSAddrs() {
-	sp := strings.Split(WS_PORT_RANGE, "-")
+	sp := strings.Split(conf.WSConfig.WsPortRange, "-")
 	if len(sp) != 2 {
 		slog.Error("WS_PORT_RANGE is invalid")
 		return
