@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/snwsnwsnw/wsserver/server"
 	"os"
 	"os/signal"
 	"syscall"
-	"wsserver/server"
 )
 
 func main() {

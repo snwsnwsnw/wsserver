@@ -3,10 +3,10 @@ package server
 import (
 	"fmt"
 	"github.com/lesismal/nbio/nbhttp/websocket"
+	"github.com/snwsnwsnw/wsserver/conf"
 	"log/slog"
 	"net/http"
 	"time"
-	"wsserver/conf"
 )
 
 type Client[MT MsgType] struct {

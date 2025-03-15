@@ -8,14 +8,14 @@ import (
 	"github.com/lesismal/nbio/nbhttp/websocket"
 	"github.com/mssola/useragent"
 	"github.com/snwsnwsnw/utils"
+	"github.com/snwsnwsnw/wsserver/common"
+	"github.com/snwsnwsnw/wsserver/metric"
 	"log/slog"
 	"net"
 	"net/http"
 	"sync"
 	"sync/atomic"
 	"time"
-	"wsserver/common"
-	"wsserver/metric"
 )
 
 var Server *WSServer

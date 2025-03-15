@@ -5,9 +5,9 @@ import (
 	"github.com/lesismal/nbio/nbhttp/websocket"
 	"github.com/redis/go-redis/v9"
 	"github.com/snwsnwsnw/utils/pool"
+	"github.com/snwsnwsnw/wsserver/common"
+	"github.com/snwsnwsnw/wsserver/wsutil"
 	"log/slog"
-	"wsserver/common"
-	"wsserver/wsutil"
 )
 
 const (

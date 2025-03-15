@@ -3,8 +3,8 @@ package wsutil
 import (
 	"fmt"
 	"github.com/google/flatbuffers/go"
+	"github.com/snwsnwsnw/wsserver/wsutil/internal"
 	"sync"
-	"wsserver/wsutil/internal"
 )
 
 // flatc -o ../ --go specificNotification.fbs
