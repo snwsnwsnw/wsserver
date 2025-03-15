@@ -1,4 +1,4 @@
-module wsserver
+module github/snwsnwsnw/wsserver
 
 go 1.23.4
 
