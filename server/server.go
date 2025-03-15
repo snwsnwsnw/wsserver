@@ -512,7 +512,7 @@ func (s *WSServer) IsClosed() bool {
 	return s.done
 }
 
-func (s *WSServer) Execute(context.Context) {
+func (s *WSServer) Stop() {
 	slog.InfoContext(s.ctx, "[WSServer] start shutdown")
 	s.cancel()
 	s.release()
